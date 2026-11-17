@@ -352,3 +352,6 @@ p{margin:0 0 1em}
 @media (min-width:641px){.hero .binnen{position:static}.hero-top,.hero-onder{position:relative;z-index:1;max-width:1200px}}
 .feit>span{min-width:0}
 @media (max-width:400px){.feit{flex-direction:column;gap:10px}.feit b{font-size:28px}.feit b span.gr{font-size:18px}.feit small{font-size:13px}}
+
+/* 17-11: kop "elke dag op WhatsApp" is langer; op mobiel schalen met de breedte */
+@media (max-width:640px){.hero h1{font-size:9.5vw}}
