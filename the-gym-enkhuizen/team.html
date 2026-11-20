@@ -112,7 +112,7 @@ h1,h2,h3,h4{font-family:"Montserrat","Arial",sans-serif}
 .banner-foto{object-fit:cover;object-position:50% 55%}
 .banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,8,9,.82) 0%,rgba(8,8,9,.5) 40%,rgba(8,8,9,.05) 75%),linear-gradient(0deg,rgba(8,8,9,.6) 0%,rgba(8,8,9,0) 45%)}
 .banner-tekst{position:relative;z-index:1;width:100%;padding:0 24px clamp(38px,6vw,74px)}
-.banner h1{color:var(--wit);font-size:clamp(40px,6.6vw,92px);line-height:.98;font-weight:500;letter-spacing:-1px;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.75),0 2px 10px rgba(0,0,0,.6),0 4px 32px rgba(0,0,0,.5)}
+.banner h1{color:var(--wit);font-size:clamp(38px,5.4vw,78px);line-height:.98;font-weight:500;letter-spacing:-1px;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.75),0 2px 10px rgba(0,0,0,.6),0 4px 32px rgba(0,0,0,.5)}
 .banner h1 strong{display:block;font-weight:900;color:var(--accent);text-shadow:0 1px 2px rgba(0,0,0,.8),0 2px 12px rgba(0,0,0,.6)}
 .banner-sub{margin-top:16px;color:rgba(255,255,255,.92);font-family:"Montserrat",sans-serif;font-size:clamp(13px,1.4vw,17px);font-weight:700;letter-spacing:2.4px;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.8),0 2px 10px rgba(0,0,0,.6)}
 .pill.donker{background:rgba(0,0,0,.5);border-color:rgba(255,255,255,.3);color:var(--wit);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
@@ -653,7 +653,7 @@ html.js .p-paneel:not(.aan){display:none}
 <main id="top">
 
 <section class="pagina-kop"><div class="binnen"><nav class="kruimel" aria-label="Kruimelpad"><a href="index.html">Home</a><span aria-hidden="true">/</span>Team</nav><h1>Over The Gym</h1><p>Sinds 2014 de sportschool van Enkhuizen. Van loods tot huiskamer.</p></div></section>
-<section class="sectie over" id="team">
+<section class="sectie over" id="team"><span id="to-coaches" aria-hidden="true"></span>
   <div class="binnen over-grid">
     <figure class="portret onthul"><img data-diepte="0.06" src="assets/img/frank.webp" width="317" height="396" alt="Frank, eigenaar en fitness coach van The Gym Enkhuizen, op een trainingsapparaat" loading="lazy"><figcaption><span>Eigenaar</span>Frank</figcaption></figure>
     <div class="onthul">
@@ -669,11 +669,11 @@ html.js .p-paneel:not(.aan){display:none}
         <div class="lid"><small>Fitboks</small><strong>Regilio Vargas</strong></div>
         <div class="lid"><small>Fitboks</small><strong>Verena Verloop</strong></div>
       </div>
-      <div class="coaches-foto"><img src="assets/img/coaches.webp" width="442" height="553" alt="Fitness coaches Kaya en Casper in de zaal" loading="lazy"><p><b>Kaya en Casper</b> helpen je in de fitnesszaal op weg. <b>Boksteam Vargas</b> traint in hetzelfde pand; de trainers van Vargas geven bij ons boksen en fitboks.</p></div>
+      <div class="coaches-foto"><img src="assets/img/coaches.webp" width="442" height="553" alt="Fitness coaches Kaya en Casper in de zaal" loading="lazy"><p><b>Kaya en Casper</b> helpen je in de fitnesszaal op weg. <span id="to-prikbord" aria-hidden="true"></span><a href="https://boksteamvargas.nl/" target="_blank" rel="noopener"><b>Boksteam Vargas</b></a> traint in hetzelfde pand; de trainers van Vargas geven bij ons boksen en fitboks.</p></div>
     </div>
   </div>
 </section>
-<section class="projecten-band" aria-label="Foto's van de zaal">
+<section class="projecten-band" aria-label="Foto's van de zaal"><span id="to-gallery" aria-hidden="true"></span>
   <div class="binnen pb-kop">
     <div>
       <div class="pill"><i></i>Kijk binnen</div>
